@@ -1,0 +1,9 @@
+{
+  "employees": [
+    {"id":"emp_maya","employeeCode":"JL-0001","firstName":"Maya","lastName":"Thapa","email":"maya@juniperandloom.example","phone":"+977-9841-000001","profileImage":"","roleId":"branch_manager","branchIds":["br_kathmandu"],"primaryBranchId":"br_kathmandu","employmentType":"full_time","joiningDate":"2024-03-15","status":"active"},
+    {"id":"emp_rohan","employeeCode":"JL-0002","firstName":"Rohan","lastName":"Poudel","email":"rohan@juniperandloom.example","phone":"+977-9841-000002","profileImage":"","roleId":"branch_manager","branchIds":["br_pokhara"],"primaryBranchId":"br_pokhara","employmentType":"full_time","joiningDate":"2024-08-01","status":"active"},
+    {"id":"emp_aarav","employeeCode":"JL-0003","firstName":"Aarav","lastName":"Sharma","email":"aarav@juniperandloom.example","phone":"+977-9841-000003","profileImage":"","roleId":"branch_manager","branchIds":["br_bhaktapur"],"primaryBranchId":"br_bhaktapur","employmentType":"full_time","joiningDate":"2025-01-20","status":"active"},
+    {"id":"emp_sanjay","employeeCode":"JL-0004","firstName":"Sanjay","lastName":"Gurung","email":"sanjay@juniperandloom.example","phone":"+977-9841-000004","profileImage":"","roleId":"commerce_operations","branchIds":["br_kathmandu","br_bhaktapur"],"primaryBranchId":"br_kathmandu","employmentType":"full_time","joiningDate":"2024-04-02","status":"active"},
+    {"id":"emp_nisha","employeeCode":"JL-0005","firstName":"Nisha","lastName":"Karki","email":"nisha@juniperandloom.example","phone":"+977-9841-000005","profileImage":"","roleId":"marketing_relations","branchIds":["br_kathmandu","br_pokhara"],"primaryBranchId":"br_kathmandu","employmentType":"part_time","joiningDate":"2024-09-12","status":"active"}
+  ]
+}

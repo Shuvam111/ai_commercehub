@@ -1,0 +1,13 @@
+{
+  "branches": [
+    {
+      "id": "br_kathmandu", "branchCode": "KTM-01", "branchName": "Kathmandu Flagship", "description": "The central showroom and primary fulfillment location.", "branchType": "flagship", "address": "House 18, Tridevi Marg, Thamel", "city": "Kathmandu", "state": "Bagmati", "country": "Nepal", "phone": "+977-1-555-0142", "email": "kathmandu@juniperandloom.example", "managerId": "emp_maya", "employeeIds": ["emp_maya", "emp_sanjay", "emp_nisha"], "status": "active", "openingHours": {"monday-friday": "10:00–19:00", "saturday": "10:00–18:00", "sunday": "11:00–17:00"}, "createdAt": "2024-03-15"
+    },
+    {
+      "id": "br_pokhara", "branchCode": "PKR-02", "branchName": "Pokhara Lakeside", "description": "A neighborhood store serving the Lakeside community.", "branchType": "retail", "address": "Street 16, Lakeside", "city": "Pokhara", "state": "Gandaki", "country": "Nepal", "phone": "+977-61-555-0280", "email": "pokhara@juniperandloom.example", "managerId": "emp_rohan", "employeeIds": ["emp_rohan", "emp_nisha"], "status": "active", "openingHours": {"monday-saturday": "10:00–19:00", "sunday": "11:00–17:00"}, "createdAt": "2024-08-01"
+    },
+    {
+      "id": "br_bhaktapur", "branchCode": "BKT-03", "branchName": "Bhaktapur Studio", "description": "A compact retail studio and local collection point.", "branchType": "retail", "address": "Taumadhi Square, Bhaktapur", "city": "Bhaktapur", "state": "Bagmati", "country": "Nepal", "phone": "+977-1-661-0316", "email": "bhaktapur@juniperandloom.example", "managerId": "emp_aarav", "employeeIds": ["emp_aarav", "emp_sanjay"], "status": "active", "openingHours": {"monday-saturday": "10:30–18:30", "sunday": "11:00–17:00"}, "createdAt": "2025-01-20"
+    }
+  ]
+}

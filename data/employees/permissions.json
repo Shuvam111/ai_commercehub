@@ -1,0 +1,16 @@
+{
+  "permissions": [
+    {"id":"organization.view","module":"organization","resource":"business","actions":["view"],"description":"View organization profile and structure."},
+    {"id":"organization.update","module":"organization","resource":"business","actions":["view","update"],"description":"View and update organization settings."},
+    {"id":"branches.manage","module":"organization","resource":"branches","actions":["view","create","update","delete","approve","export"],"description":"Manage organization branches and their configuration."},
+    {"id":"employees.manage","module":"organization","resource":"employees","actions":["view","create","update","delete","approve","export"],"description":"Manage employees and branch assignments."},
+    {"id":"roles.manage","module":"organization","resource":"roles","actions":["view","create","update","delete","approve","export"],"description":"Manage roles and granular module permissions."},
+    {"id":"catalog.manage","module":"commerce","resource":"products","actions":["view","create","update","delete","approve","export"],"description":"Manage the central product catalog."},
+    {"id":"inventory.manage","module":"inventory","resource":"branch-inventory","actions":["view","create","update","delete","approve","export"],"description":"Manage inventory records scoped to assigned branches."},
+    {"id":"orders.manage","module":"commerce","resource":"orders","actions":["view","create","update","delete","approve","export"],"description":"Process and review commerce orders."},
+    {"id":"analytics.view","module":"intelligence","resource":"reports","actions":["view","export"],"description":"View organization or branch-scoped reporting."},
+    {"id":"promotions.manage","module":"operations","resource":"promotions","actions":["view","create","update","delete","approve","export"],"description":"Manage campaigns, discounts, and customer engagement."},
+    {"id":"storefront.view","module":"storefront","resource":"catalog","actions":["view"],"description":"Browse products and categories on the public storefront."},
+    {"id":"orders.view_own","module":"customer","resource":"orders","actions":["view"],"description":"View the signed-in customer's own order history."}
+  ]
+}

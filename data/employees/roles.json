@@ -1,0 +1,9 @@
+{
+  "roles": [
+    {"id":"super_admin","name":"Super Admin / Business Owner","description":"Organization-wide control over branches, people, catalog, reporting, and platform settings.","userType":"super_admin","defaultPermissions":["organization.view","organization.update","branches.*","employees.*","roles.*","catalog.*","analytics.*","settings.*"],"branchScope":"organization","status":"active"},
+    {"id":"branch_manager","name":"Branch Manager","description":"Runs assigned branch operations, team, sales, inventory, and POS.","userType":"branch_manager","defaultPermissions":["branch.view","employees.view","inventory.view","orders.view","pos.view","analytics.view"],"branchScope":"assigned_branches","status":"active"},
+    {"id":"commerce_operations","name":"Commerce Operations Staff","description":"Selected product, stock, warehouse, supplier, order, fulfillment, and POS capabilities.","userType":"commerce_operations","defaultPermissions":["catalog.view","inventory.view","orders.view","fulfillment.view","pos.view"],"branchScope":"assigned_branches","status":"active"},
+    {"id":"marketing_relations","name":"Marketing & Customer Relations Staff","description":"Campaigns, promotions, customer care, inquiries, complaints, and reviews.","userType":"marketing_customer_relations","defaultPermissions":["campaigns.view","promotions.view","customers.view","support.view","reviews.view"],"branchScope":"assigned_branches","status":"active"},
+    {"id":"customer","name":"Customer","description":"Browses the storefront and manages their own future customer profile and orders.","userType":"customer","defaultPermissions":["storefront.view","profile.view","orders.view_own","reviews.create"],"branchScope":"customer","status":"active"}
+  ]
+}

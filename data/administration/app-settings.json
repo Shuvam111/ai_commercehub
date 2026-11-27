@@ -1,5 +1,5 @@
 {
   "application": { "name": "AI CommerceHub", "fullName": "AI CommerceHub – AI-Powered E-Commerce, Store and Business Management System", "currency": "NPR", "locale": "en-NP", "timezone": "Asia/Kathmandu" },
   "theme": { "default": "light", "available": ["light", "dark"], "allowToggle": true },
-  "dashboard": { "defaultDateRange": "Last 30 days", "defaultStore": "All stores", "metricColumns": 4, "showRevenueChart": true, "showRecentOrders": true, "showInventoryAlerts": true }
+  "dashboard": { "defaultDateRange": "Last 30 days", "defaultStore": "All branches", "metricColumns": 4, "showRevenueChart": true, "showRecentOrders": true, "showInventoryAlerts": true }
 }

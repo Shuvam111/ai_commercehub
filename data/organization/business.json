@@ -1,0 +1,16 @@
+{
+  "id": "org_himalayan-house",
+  "businessName": "Juniper & Loom",
+  "legalName": "Juniper & Loom Retail Private Limited",
+  "businessType": "Single-vendor lifestyle and home goods retailer",
+  "logo": "/brand-mark.svg",
+  "email": "hello@juniperandloom.example",
+  "phone": "+977-1-555-0142",
+  "address": "Thamel, Kathmandu, Nepal",
+  "currency": "NPR",
+  "timezone": "Asia/Kathmandu",
+  "defaultBranchId": "br_kathmandu",
+  "branchIds": ["br_kathmandu", "br_pokhara", "br_bhaktapur"],
+  "createdAt": "2024-03-15T09:00:00+05:45",
+  "status": "active"
+}

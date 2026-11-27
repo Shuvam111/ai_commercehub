@@ -6,36 +6,19 @@
     { "id": "stock", "label": "Products in stock", "value": "3,642", "change": -2.4, "trend": "down", "comparison": "vs. previous period", "icon": "Boxes" }
   ],
   "revenue": [
-    { "period": "Oct 29", "revenue": 18200, "orders": 84 }, { "period": "Nov 1", "revenue": 24600, "orders": 106 },
-    { "period": "Nov 4", "revenue": 21400, "orders": 96 }, { "period": "Nov 7", "revenue": 32800, "orders": 134 },
-    { "period": "Nov 10", "revenue": 28900, "orders": 121 }, { "period": "Nov 13", "revenue": 38600, "orders": 151 },
-    { "period": "Nov 16", "revenue": 34200, "orders": 140 }, { "period": "Nov 19", "revenue": 44700, "orders": 173 },
-    { "period": "Nov 22", "revenue": 39900, "orders": 159 }, { "period": "Nov 25", "revenue": 51800, "orders": 192 },
-    { "period": "Nov 27", "revenue": 47600, "orders": 181 }
+    { "period": "Oct 29", "revenue": 18200, "orders": 84 }, { "period": "Nov 1", "revenue": 24600, "orders": 106 }, { "period": "Nov 4", "revenue": 21400, "orders": 96 }, { "period": "Nov 7", "revenue": 32800, "orders": 134 }, { "period": "Nov 10", "revenue": 28900, "orders": 121 }, { "period": "Nov 13", "revenue": 38600, "orders": 151 }, { "period": "Nov 16", "revenue": 34200, "orders": 140 }, { "period": "Nov 19", "revenue": 44700, "orders": 173 }, { "period": "Nov 22", "revenue": 39900, "orders": 159 }, { "period": "Nov 25", "revenue": 51800, "orders": 192 }, { "period": "Nov 27", "revenue": 47600, "orders": 181 }
   ],
   "salesOverview": { "totalSales": "NPR 2,45,680", "completed": 982, "pending": 186, "cancelled": 116 },
   "recentOrders": [
-    { "id": "#ACH-2048", "customer": "Aarav Sharma", "initials": "AS", "date": "Nov 27, 2026", "items": 3, "amount": "NPR 8,450", "paymentStatus": "Paid", "orderStatus": "Delivered" },
-    { "id": "#ACH-2047", "customer": "Maya Thapa", "initials": "MT", "date": "Nov 27, 2026", "items": 1, "amount": "NPR 2,200", "paymentStatus": "Pending", "orderStatus": "Processing" },
-    { "id": "#ACH-2046", "customer": "Sanjay Gurung", "initials": "SG", "date": "Nov 26, 2026", "items": 2, "amount": "NPR 12,800", "paymentStatus": "Paid", "orderStatus": "Shipped" },
-    { "id": "#ACH-2045", "customer": "Nisha Karki", "initials": "NK", "date": "Nov 26, 2026", "items": 4, "amount": "NPR 5,640", "paymentStatus": "Paid", "orderStatus": "Processing" },
-    { "id": "#ACH-2044", "customer": "Rohan Poudel", "initials": "RP", "date": "Nov 25, 2026", "items": 1, "amount": "NPR 1,890", "paymentStatus": "Refunded", "orderStatus": "Cancelled" }
+    { "id": "#ACH-2048", "customer": "Aarav Sharma", "initials": "AS", "date": "Nov 27, 2026", "items": 3, "amount": "NPR 8,450", "paymentStatus": "Paid", "orderStatus": "Delivered" }, { "id": "#ACH-2047", "customer": "Maya Thapa", "initials": "MT", "date": "Nov 27, 2026", "items": 1, "amount": "NPR 2,200", "paymentStatus": "Pending", "orderStatus": "Processing" }, { "id": "#ACH-2046", "customer": "Sanjay Gurung", "initials": "SG", "date": "Nov 26, 2026", "items": 2, "amount": "NPR 12,800", "paymentStatus": "Paid", "orderStatus": "Shipped" }, { "id": "#ACH-2045", "customer": "Nisha Karki", "initials": "NK", "date": "Nov 26, 2026", "items": 4, "amount": "NPR 5,640", "paymentStatus": "Paid", "orderStatus": "Processing" }, { "id": "#ACH-2044", "customer": "Rohan Poudel", "initials": "RP", "date": "Nov 25, 2026", "items": 1, "amount": "NPR 1,890", "paymentStatus": "Refunded", "orderStatus": "Cancelled" }
   ],
   "topProducts": [
-    { "id": "p-1", "name": "Everyday Linen Shirt", "category": "Apparel", "unitsSold": 248, "revenue": "NPR 1,24,000", "tone": "sage", "monogram": "EL" },
-    { "id": "p-2", "name": "Ceramic Pour-over Set", "category": "Home & Living", "unitsSold": 186, "revenue": "NPR 93,000", "tone": "sand", "monogram": "CP" },
-    { "id": "p-3", "name": "Canvas Weekender Bag", "category": "Accessories", "unitsSold": 142, "revenue": "NPR 85,200", "tone": "blue", "monogram": "CW" },
-    { "id": "p-4", "name": "Botanical Skincare Kit", "category": "Beauty", "unitsSold": 119, "revenue": "NPR 71,400", "tone": "rose", "monogram": "BS" }
+    { "id": "prd_linen-shirt", "unitsSold": 248, "revenue": "NPR 1,24,000", "tone": "sage", "monogram": "EL" }, { "id": "prd-pour-over", "unitsSold": 186, "revenue": "NPR 93,000", "tone": "sand", "monogram": "CP" }, { "id": "prd-weekender", "unitsSold": 142, "revenue": "NPR 85,200", "tone": "blue", "monogram": "CW" }, { "id": "prd-skincare", "unitsSold": 119, "revenue": "NPR 71,400", "tone": "rose", "monogram": "BS" }
   ],
   "activity": [
-    { "id": "a-1", "title": "New order received", "detail": "Order #ACH-2048 · NPR 8,450", "time": "8 minutes ago", "icon": "ShoppingBag", "tone": "primary" },
-    { "id": "a-2", "title": "Stock level updated", "detail": "Everyday Linen Shirt · 24 units added", "time": "42 minutes ago", "icon": "PackageCheck", "tone": "green" },
-    { "id": "a-3", "title": "New customer registered", "detail": "Sanjay Gurung joined your store", "time": "2 hours ago", "icon": "UserRoundPlus", "tone": "violet" },
-    { "id": "a-4", "title": "Order delivered", "detail": "Order #ACH-2041 · Kathmandu, Nepal", "time": "3 hours ago", "icon": "Truck", "tone": "amber" }
+    { "id": "a-1", "title": "New order received", "detail": "Order #ACH-2048 · NPR 8,450", "time": "8 minutes ago", "icon": "ShoppingBag", "tone": "primary" }, { "id": "a-2", "title": "Stock level updated", "detail": "Everyday Linen Shirt · 24 units added", "time": "42 minutes ago", "icon": "PackageCheck", "tone": "green" }, { "id": "a-3", "title": "New customer registered", "detail": "Sanjay Gurung joined your store", "time": "2 hours ago", "icon": "UserRoundPlus", "tone": "violet" }, { "id": "a-4", "title": "Order delivered", "detail": "Order #ACH-2041 · Kathmandu, Nepal", "time": "3 hours ago", "icon": "Truck", "tone": "amber" }
   ],
   "lowStock": [
-    { "id": "s-1", "name": "Ceramic Mug — Cloud", "sku": "HOM-CMG-008", "quantity": 4, "status": "Critical" },
-    { "id": "s-2", "name": "Linen Apron — Natural", "sku": "APP-APR-014", "quantity": 7, "status": "Low stock" },
-    { "id": "s-3", "name": "Cedar Candle — 250g", "sku": "HOM-CND-021", "quantity": 9, "status": "Low stock" }
+    { "id": "s-1", "name": "Ceramic Mug — Cloud", "sku": "HOM-CMG-008", "quantity": 4, "status": "Critical" }, { "id": "s-2", "name": "Linen Apron — Natural", "sku": "APP-APR-014", "quantity": 7, "status": "Low stock" }, { "id": "s-3", "name": "Cedar Candle — 250g", "sku": "HOM-CND-021", "quantity": 9, "status": "Low stock" }
   ]
 }

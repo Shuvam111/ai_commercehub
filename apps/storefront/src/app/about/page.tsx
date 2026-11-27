@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { StoreImage } from "@/components/store-image";
+import { Heart, Leaf, MapPin } from "lucide-react";
+
+export const metadata: Metadata = { title: "Our story", description: "Meet the people and ideas behind AI CommerceHub's Juniper & Loom sample storefront." };
+
+export default function AboutPage() {
+  return <div className="page-container about-page"><section className="about-hero"><div><span className="eyebrow">A LITTLE ABOUT US</span><h1>Good things,<br /><em>gathered with care.</em></h1><p>We think the everyday deserves a little more attention. So we look for useful, beautifully made things that bring a bit of joy to the rhythms of real life.</p><Link className="button button-dark" href="/shop">Come have a look <span aria-hidden="true">→</span></Link></div><StoreImage src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1500&q=85" alt="Warm, welcoming independent shop interior" /></section><section className="about-story"><span className="eyebrow">ROOTED IN KATHMANDU</span><h2>A small shop for the things that make a day.</h2><p>Juniper & Loom is a fictional independent retailer, created as sample content for this AI CommerceHub storefront. The story is simple: thoughtful objects, local makers where we can find them, and useful design that lasts beyond a trend.</p><p>Our little collection is gathered across home, personal style, care and everyday carry. Every product in this preview is static sample data; no order, inventory or customer information is saved.</p></section><section className="about-values"><article><span><Heart aria-hidden="true" /></span><h3>Chosen with care</h3><p>A considered collection of useful things, not a catalogue of everything.</p></article><article><span><Leaf aria-hidden="true" /></span><h3>Made for keeping</h3><p>Natural textures, lasting materials and familiar forms you return to.</p></article><article><span><MapPin aria-hidden="true" /></span><h3>Close to home</h3><p>A Kathmandu-rooted point of view, with room for good finds from everywhere.</p></article></section></div>;
+}
