@@ -1,0 +1,7 @@
+{
+  "notifications": [
+    { "id": "n-1", "title": "New order received", "description": "Order #ACH-2048 was placed for NPR 8,450.", "timestamp": "8 minutes ago", "type": "order", "read": false },
+    { "id": "n-2", "title": "Stock running low", "description": "Ceramic Mug — Cloud has only 4 units left.", "timestamp": "42 minutes ago", "type": "inventory", "read": false },
+    { "id": "n-3", "title": "Order delivered", "description": "Order #ACH-2041 was delivered successfully.", "timestamp": "3 hours ago", "type": "delivery", "read": true }
+  ]
+}
